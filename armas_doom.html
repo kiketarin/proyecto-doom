@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> DOOM  </title>
+<link rel="icon" type="image/x-icon" href="./assets/img/doom_Icon_mini.png">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Proyecto académico de ESAT, realizando una web de la saga de DOOM">
+<meta name="author" content="Proyecto académico realizado por: Enrique Tarin">
+<meta name="keywords" content="Doom,Doom3,doom eternal, videojuego, esat, Enrique Tarin">
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./css/mainPage/topnav2.css">
+<link rel="stylesheet" href="./css/mainPage/comun.css">
+
+<link rel="stylesheet" href="./css/armas/armas_doom1.css">
+
+<!-- SCRIPTS -->
+
+<script  type="text/javascript" src="./scripts/mainPage/script_top_nav.js"> </script>
+
+<style>
+  * {
+  		box-sizing: border-box;
+	}
+
+
+  body{
+    background-color: black;
+
+  }
+
+</style>
+</head >
+<body>
+  <header>
+    <ul>
+      <li ><a href="./index.html" > <img src="./assets/img/doom_Icon_mini.png"/></a></li>
+      <li class="dropdown">
+      <a href="javascript:void(0)" class="dropbtn">Historia</a>
+      <div class="dropdown-content">
+        <a href="./historia_doom1.html">Historia DooM 1</a>
+        <a href="./historia_doom3.html">Historia DooM 3</a>
+        <a href="./historia_doom_eternal.html">Historia DooM Eternal</a>
+      </div>
+    </li>
+
+    <li><a href="./enemigos_doom.html" >Enemigos DooM  </a></li>
+
+    <li><a href="./armas_doom.html" >Armas DooM  </a></li>
+
+    </ul>
+
+  </header>
+
+    <div class="topnav">
+      <a href="./index.html" class="active"><img src="./assets/img/doom_Icon_mini.png"/></a>
+      <div id="myLinks">
+        <a href="./historia_doom1.html">Historia DooM 1</a>
+        <a href="./historia_doom3.html">Historia DooM 3</a>
+        <a href="./historia_doom_eternal.html">Historia DooM Eternal</a>
+        <a href="./enemigos_doom.html" >Enemigos DooM  </a>
+        <a href="./armas_doom.html" >Armas DooM  </a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+
+    <div class="soportetop"> </div>
+
+      <div class="doom_select">
+         <ul>
+          <li> <a href="#doom1"> DOOM1 </a> </li>
+          <li> <a href="#doom3"> DOOM3 </a> </li>
+          <li> <a href="#doom_eternal"> DOOM ETERNAL </a> </li>
+        <ul>
+      </div>
+
+      <div class="text_title">
+        <h1>LISTADO DE ARMAS </h1>
+      </div>
+      <a name="doom1"></a>
+      <div class="doom_title">
+        <h1>DOOM 1</h1>
+      </div>
+      <div class="armas">
+
+        <div class="container">
+          <img src="./assets/img/arms/doom1/puño_mini.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">Puño (fist) <br> <b>ATAQUE: <br>10 dps</b> </div>
+
+          </div>
+        </div>
+
+        <div class="container">
+          <img src="./assets/img/arms/doom1/motosierra_mini.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text"> Motosierra (chainsaw)  <br> <b>ATAQUE: <br>20 dps</b></div>
+          </div>
+        </div>
+
+        <div class="container">
+          <img src="./assets/img/arms/doom1/Pistola_mini.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">  pistola <br> <b>ATAQUE:<br> 5-15 dps</b></div>
+          </div>
+        </div>
+
+        <div class="container">
+          <img src="./assets/img/arms/doom1/escopeta_mini.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">  Escopeta (shotgun) <br> <b>ATAQUE: <br>35-105 dps</b></div>
+          </div>
+        </div>
+
+        <div class="container">
+          <img src="./assets/img/arms/doom1/ametralladora_mini.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text"> Ametralladora (chaingun)<br> <b>ATAQUE:<br> 5-15 por bala</b></div>
+          </div>
+        </div>
+        <div class="container">
+          <img src="./assets/img/arms/doom1/Lanzacohetes_mini.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text"> Lanzacohetes (rocket launcher)  <br> <b>ATAQUE:<br>20-160 (impacto directo) <br> 0-128 (daño explosion)</b></div>
+          </div>
+        </div>
+
+        <div class="container">
+          <img src="./assets/img/arms/doom1/Plasma_mini.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">Fusil de plasma (plasma gun)<br> <b>ATAQUE:<br>5-40 dps</b></div>
+          </div>
+        </div>
+
+        <div class="container">
+          <img src="./assets/img/arms/doom1/BFG9000_mini.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">  BFG 9000 <br> <b>ATAQUE:<br>100-800 (impacto directo)<br>49-87 (daño explosion)</b></div>
+          </div>
+        </div>
+      </div>
+
+      <a name="doom3"></a>
+      <div class="doom_title">
+
+        <h1>DOOM 3</h1>
+      </div>
+      <div class="armas">
+
+        <div class="container">
+          <img src="./assets/img/arms/doom3/D3_Puños._minipng.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">Puños (fists)
+                <br> <b>ATAQUE: <br>10 dps / 40 a cabeza</b> </div>
+
+            <div class="text"></div>
+          </div>
+        </div>
+
+        <div class="container">
+          <img src="./assets/img/arms/doom3/D3_Linterna_mini.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text"> Linterna (flashlight) <br> <b>ATAQUE: <br>20 dps </b></div>
+          </div>
+        </div>
+
+        <div class="container">
+          <img src="./assets/img/arms/doom3/D3_Motosierra_mini.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text"> Motosierra (chainsaw)  <br> <b>ATAQUE:<br> 50 dps</b></div>
+          </div>
+        </div>
+
+        <div class="container">
+          <img src="./assets/img/arms/doom3/D3_pistola_mini.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text"> Pistola <br> <b>ATAQUE: <br>14 (normal)<br>28 (cabeza)</b></div>
+          </div>
+        </div>
+
+        <div class="container">
+          <img src="./assets/img/arms/doom3/D3_Escopeta.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">Escopeta (shotgun) <br> <b>ATAQUE:<br>14 (normal)<br>28 (cabeza) </b></div>
+          </div>
+        </div>
+
+        <div class="container">
+          <img src="./assets/img/arms/doom3/D3_Ametralladora.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text"> MG-88 Enforcer<br> <b>ATAQUE:<br>9 (normal)<br>12 (cabeza)</b></div>
+          </div>
+        </div>
+
+        <div class="container">
+          <img src="./assets/img/arms/doom3/D3_Lanzacohetes.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text"> Lanzacohetes (rocket launcher)<br>  <b>ATAQUE:<br>170 (normal)<br>340 (cabeza)<br>Explosion:<br>170 (normal)<br>340 (cabeza)</b></div>
+          </div>
+        </div>
+
+        <div class="container">
+          <img src="./assets/img/arms/doom3/D3_FusilPlasma.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text"> arma basada en la energía <br> <b>ATAQUE:<br>16 (normal)<br>32 (cabeza)</b></div>
+          </div>
+        </div>
+        <div class="container">
+          <img src="./assets/img/arms/doom3/D3_CañonCadena.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text"> Lanzacohetes (rocket launcher) <br> <b>ATAQUE:<br>20 (normal)<br>40 (cabeza)</b></div>
+          </div>
+        </div>
+        <div class="container">
+          <img src="./assets/img/arms/doom3/D3_Granada.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text"> Granada (grenade) <br>  <b>ATAQUE:<br>150 (normal)<br>300 (cabeza)<br>Explosion:<br>150 (normal)</b></div>
+          </div>
+        </div>
+        <div class="container">
+          <img src="./assets/img/arms/doom3/D3_BFG9000.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">  "Bio Force Gun" o "Big Fucking Gun"<br>  <b>ATAQUE:<br>200 (normal)<br>Explosion:<br>100 (normal)</b></div>
+          </div>
+        </div>
+        <div class="container">
+          <img src="./assets/img/arms/doom3/D3_CuboAlmas.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text"> El Cubo de las almas (soul cube)  <br>  <b>ATAQUE:<br>1000 (normal)</b></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="doom_title">
+        <a name="doom_eternal"></a>
+        <h1>DOOM ETERNAL</h1>
+      </div>
+      <div class="armas">
+
+        <div class="container">
+          <img src="./assets/img/arms/doom_eternal/DE_Ametralladora_G.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">Ametralladora Gatling (chaingun)
+                <br> <b>Modificaciones: <br>Torreta Movil<br> Escudo de energia</b> </div>
+
+            <div class="text"></div>
+          </div>
+        </div>
+
+        <div class="container">
+          <img src="./assets/img/arms/doom_eternal/DE_Balista.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text"> Balista  <br> <b>Modificaciones: <br>Arbalista<br> Hoja destructora</b></div>
+          </div>
+        </div>
+
+        <div class="container">
+          <img src="./assets/img/arms/doom_eternal/DE_BFG-9000.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text"> BFG-9000 </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <img src="./assets/img/arms/doom_eternal/DE_Fusil_pesado_2.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text"> Cañón pesado (heavy cannon)<br> <b>Modificaciones: <br>Tiro de precisión	<br> Micro misiles</b></div>
+          </div>
+        </div>
+
+        <div class="container">
+          <img src="./assets/img/arms/doom_eternal/DE_Crisol.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text"> Espada Crisol<br> </div>
+          </div>
+        </div>
+        <div class="container">
+          <img src="./assets/img/arms/doom_eternal/DE_Escopeta.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text"> Escopeta de combate (shotgun) <br> <b>Modificaciones: <br>Bombas adhesivas		<br> Fuego automático </b></div>
+          </div>
+        </div>
+
+        <div class="container">
+          <img src="./assets/img/arms/doom_eternal/DE_Fusil_de_plasma.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">  Fusil de plasma  <br> <b>Modificaciones: <br>Explosión de calor		<br> Haz de microondas </b></div>
+          </div>
+        </div>
+
+        <div class="container">
+          <img src="./assets/img/arms/doom_eternal/DE_Lanzamisiles.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">  Lanzamisiles (rocket launcher) <br> <b>Modificaciones: <br>Detonación a distancia		<br> Ráfaga con guía </b></div>
+          </div>
+        </div>
+
+        <div class="container">
+          <img src="./assets/img/arms/doom_eternal/DE_Motosierra.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">  Motosierra (chainsaw) <br> <b>Modificaciones: <br>Detonación a distancia		<br> Ráfaga con guía </b></div>
+          </div>
+        </div>
+
+        <div class="container">
+          <img src="./assets/img/arms/doom_eternal/DE_Super_escopeta.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text">  Super escopeta (super shotgun)<br> <b>Modificaciones: <br>Gancho rápido		<br> Manos rápidas </b></div>
+          </div>
+        </div>
+
+        <div class="container">
+          <img src="./assets/img/arms/doom_eternal/DE_Desmaykr.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <div class="text"> Desmaykr ( unmaykr )<br> <b>Modificaciones: <br>Gancho rápido		<br> Manos rápidas </b></div>
+          </div>
+        </div>
+      </div>
+  
+
+      <hr style="color:white"; width="100%">
+      <footer class="Copyright">
+
+        ©  <a href="https://www.esat.es/" target="_blank"> Academic Proyect by Enrique Tarin Fuster - ESAT</a>
+        <div class="formulario">
+              <a href="./formulario.html" target="_blank"> contacto </a> 
+          </div>
+      </footer>
+	</body>
+</html>
