@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> DOOM  </title>
+<link rel="icon" type="image/x-icon" href="./assets/img/doom_Icon_mini.png">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Proyecto académico de ESAT, realizando una web de la saga de DOOM">
+<meta name="author" content="Proyecto académico realizado por: Enrique Tarin">
+<meta name="keywords" content="Doom,Doom3,doom eternal, videojuego, esat, Enrique Tarin">
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./css/mainPage/topnav2.css">
+<link rel="stylesheet" href="./css/mainPage/comun.css">
+
+<link rel="stylesheet" href="./css/historia/doom1/image-grid.css">
+<link rel="stylesheet" href="./css/historia/doom1/video.css">
+<link rel="stylesheet" href="./css/historia/historia.css">
+
+<!-- SCRIPTS -->
+
+<script  type="text/javascript" src="./scripts/mainPage/script_top_nav.js"> </script>
+
+<style>
+  * {
+  		box-sizing: border-box;
+	}
+
+    body{
+      background-color: black;
+
+    }
+
+</style>
+</head >
+  <body>
+
+    <a name="header"></a>
+    <header>
+      <ul>
+        <li style="padding-bottom:10px ;"><a href="./index.html" > <img src="./assets/img/doom_Icon_mini.png"/></a></li>
+        <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Historia</a>
+        <div class="dropdown-content">
+          <a href="./historia_doom1.html">Historia DooM 1</a>
+          <a href="./historia_doom3.html">Historia DooM 3</a>
+          <a href="./historia_doom_eternal.html">Historia DooM Eternal</a>
+        </div>
+      </li>
+
+      <li><a href="./enemigos_doom.html" >Enemigos DooM  </a></li>
+
+      <li><a href="./armas_doom.html" >Armas DooM  </a></li>
+
+      </ul>
+
+    </header>
+
+    <div class="topnav">
+      <a href="./index.html" class="active"><img src="./assets/img/doom_Icon_mini.png"/></a>
+      <div id="myLinks">
+        <a style="background-color:red;" href="./historia_doom1.html">Historia DooM 1</a>
+        <a href="./historia_doom3.html">Historia DooM 3</a>
+        <a href="./historia_doom_eternal.html">Historia DooM Eternal</a>
+        <a href="./enemigos_doom.html" >Enemigos DooM  </a>
+        <a href="./armas_doom.html" >Armas DooM  </a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <div class="soportetop"></div>
+    <div class="video-responsive">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/BkaC1-QoraY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="contenedor_texto">
+      <div class="Titulos">
+        RESUMEN
+      </div>
+    </div>
+    <div class="contenedor_texto">
+
+      <div class="texto_resumen">
+
+        Considerándote como peligroso, decidieron transportarte a la base en Marte... sector espacial de la UAC .
+        La UAC es una conglomeración multi-planetaria con instalaciones de desechos radioactivos en Marte y sus dos lunas, Fobos y Deimos.
+        Secretamente, la UAC, entre otras cosas, desarrollaba muchos proyectos militares en Marte y sus dos lunas. Una y la más problemática era la teletransportación interdimensional,
+        pero hasta ahora solo se había podido abrir un teletransportador entre Fobos y Deimos.<br>
+
+        Ya habiendo pasado algún tiempo, repentinamente Marte recibió un mensaje desde Fobos «¡Requerimos de soporte militar inmediato!
+        ¡Algo terrible y monstruoso está saliendo por los portales! ¡Los sistemas no responden! Los sistemas computarizados se han vuelto locos!» El resto era simplemente incoherente.
+        Poco después, Deimos simplemente se desvaneció del espacio. Desde ese momento, ha habido varios intentos de establecer conexión con alguna de las lunas, sin éxito.
+        Como último recurso, tu y tus compañeros, son enviados a Fobos para ver que es lo que está pasando.<br>
+
+        Al llegar, tu primera orden es esperar en la entrada y asegurar el perímetro mientras los demás efectivos entraban a la base llevándose las armas de alto calibre.<br>
+      </div>
+    </div>
+
+    <div class="contenedor_texto">
+      <div class="Titulos">
+        MOTOR GRÁFICO
+      </div>
+    </div>
+    <div class="contenedor_texto">
+
+      <div class="texto_resumen">
+
+        Doom engine fue el motor que sucedió al anterior motor de id, conocido como Wolfenstein 3D engine. Este motor gráfico también es usado por Heretic, Hexen, Strife y otros juegos producidos por licenciatarios.<br>
+        El código fuente para la versión Doom de Linux fue lanzado al público en 1997 bajo una licencia que garantiza los derechos de uso del motor mientras no sea para uso comercial, y fue relanzado bajo la licencia GNU en 1999.
+        Las versiones de Doom no oficiales que han sido creados desde entonces ha permitido que el juego corra en sistemas operativos que antaño no eran soportados e incluso mejorando la funcionalidad del motor y
+        agregando nuevas características en algunas conversiones.<br>
+        un sistema de gestión de sonido, del cual, a diferencia de la funcionalidad de renderizado y creación de redes, las fuentes no fueron totalmente liberadas al público, ya que incluyen código propietario escrito por Paul Radek.<br>
+        La última versión del motor lanzado para los juegos es la que se incluye con la versión 1.9 de cada juego, aunque unas versiones ligeramente modificadas posteriormente fueron publicadas con The Ultimate Doom y luego Final Doom,
+        aunque John Carmack, el programador principal, no estaba muy involucrado en esas dos versiones, y están marcados como «v1.9» a pesar de las diferencias.<br>
+      </div>
+    </div>
+    <div class="contenedor_texto">
+      <div class="subtitulos">
+        Componentes
+      </div>
+    </div>
+    <div class="contenedor_texto">
+        <ul>
+          <li><b>Un motor de renderizado que estructura los niveles de juego y maneja el movimiento, efectos y las obstrucciones durante el juego,</li>
+          <li>Un componente auxiliar de red (Doom networking component) para conectar las computadoras durante las partidas multijugador.</li>
+          <li>Un sistema de gestión de sonido, del cual, a diferencia de la funcionalidad de renderizado y creación de redes, las fuentes no fueron totalmente liberadas al público, ya que incluyen código propietario escrito por Paul Radek.</b></li>
+        </ul>
+    </div>
+    <div class="contenedor_texto">
+      <div class="Titulos">
+          GALERIA DE IMÁGENES
+      </div>
+    </div>
+    <div class=".galeria">
+    <div class="row">
+      <div class="column">
+        <img src="./assets/img/comprimidas/historia_doom_1/doom-1993-201972822533737_1.jpg.png" style="width:100%">
+        <img src="./assets/img/comprimidas/historia_doom_1/Doom_formato_mapa.png" style="width:100%">
+
+
+      </div>
+      <div class="column">
+        <img src="./assets/img/comprimidas/historia_doom_1/ss_0316d2cb78eed32d21a90f197da0e0ea4b06e776.1920x1080.jpg" style="width:100%">
+        <img src="./assets/img/comprimidas/historia_doom_1/Episodio1.webp" style="width:100%">
+
+      </div>
+      <div class="column">
+        <img src="./assets/img/comprimidas/historia_doom_1/E1M2dots.webp" style="width:100%">
+        <img src="./assets/img/comprimidas/historia_doom_1/Trucos.webp" style="width:100%">
+
+      </div>
+      <div class="column">
+        <img src="./assets/img/comprimidas/historia_doom_1/Zombi.webp" style="width:100%">
+        <img src="./assets/img/comprimidas/historia_doom_1/Armadura.webp" style="width:100%">
+
+      </div>
+    </div>
+    <div class="soporte"></div>
+    <hr style="color:white"; width="100%">
+    <footer class="Copyright">
+
+      ©  <a href="https://www.esat.es/" target="_blank"> Academic Proyect by Enrique Tarin Fuster - ESAT</a>
+      <div class="formulario">
+            <a href="./formulario.html" target="_blank"> contacto </a> 
+        </div>
+    </footer>
+
+	</body>
+</html>

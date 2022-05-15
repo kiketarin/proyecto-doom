@@ -1,0 +1,240 @@
+/*     Imagenes  */
+.armas{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  padding-left: 200px;
+  padding-right:200px;
+}
+.armas .container {
+  position: relative;
+  width: 420px;
+  padding: 20px;
+}
+.armas .image {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+.armas .overlay {
+  width: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+
+
+}
+.armas .container:hover .overlay {
+  opacity: 1;
+  backdrop-filter: blur(2px)
+
+}
+.armas .text {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+@media only screen and (max-width: 1000px){
+  .armas{
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right:20px;
+    align-items: center;
+  }
+
+  .armas .text {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 800px){
+  .armas{
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right:20px;
+    align-items: center;
+  }
+
+  .armas .text {
+   
+    padding-right:0px;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 700px){
+  .armas{
+    flex-direction: column;
+    padding-left: 0;
+    padding-right:0;
+  }
+
+  .armas .text {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 500px){
+  .armas{
+    flex-direction: column;
+
+  }
+  .armas .container {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 400px){
+  .armas{
+    flex-direction: column;
+    left: 0%;
+    width: 100%;
+
+  }
+}
+
+/*     Textos  */
+
+.contenedor_texto{
+  display: flex;
+  padding: 0 10vw;
+  z-index: 2;
+  position: relative;
+}
+.text_title{
+  padding-top: 20px;
+  background-color: transparent;
+  text-align: center;
+}
+.text_title h1{
+  text-align: center;
+  color: red;
+  z-index: 50;
+
+}
+.doom_title h1{
+  text-align: center;
+  color: blanchedalmond;
+  z-index: 50;
+}
+.doom_select{
+  position: fixed ;
+  background-color: transparent;
+  height: 100%;
+  width: 10%;
+  z-index: 50;
+  padding-bottom:400px;
+  font-size:  1.5em;
+}
+.doom_select ul{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  list-style-type: none;
+}
+.doom_select li {
+  margin: 10px;
+  float: left;
+ }
+.doom_select li a {
+  color:white;
+  text-decoration: none;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1500px ) {
+
+  .doom_select  {
+    font-size: 1.25em;
+  }
+  .text_title h1{
+      font-size: 2em;
+      padding-left: 150;
+  }
+  .doom_title h1{
+      font-size:  1.5em;
+  }
+}
+@media only screen and (max-width: 1200px ) {
+  .doom_select{
+    width: 15%;
+  }
+  
+}
+@media only screen and (max-width: 800px ) {
+ 
+  .text_title h1{
+    font-size: 1.25em;
+    padding-left: 150px;
+   }
+  .doom_title h1{
+    font-size: 1.25em;
+    padding-left: 150px;
+   }
+   .doom_select{
+    display: 17%;
+  }
+}
+@media only screen and (max-width: 700px ) {
+  .text_title h1{
+
+    padding-left: 0;
+   }
+  .doom_title h1{
+ 
+    padding-left: 0;
+   }
+  .doom_select{
+    display: none;
+  }
+}
+@media only screen and (max-width: 500px ) {
+
+  .text_title h1{
+    
+    padding-left: 0px;
+  }
+  .doom_title h1{
+    
+    padding-left: 0px;
+  }
+
+  .doom_select{
+    display: none;
+    }
+  }

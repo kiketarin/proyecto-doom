@@ -1,0 +1,45 @@
+.Titulos{
+  font-family: "Doom Font body";
+  color: red;
+  margin: 0 15px 15px;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-shadow: 2px 2px 5px rgb(0 0 0 / 60%);
+  white-space: pre-line;
+}
+.subtitulos{
+  font-family: "Doom Font body";
+  color: red;
+  /*margin: 0 15px 15px;*/
+  font-size: 1.3em;
+  line-height: 1em;
+  text-shadow: 2px 2px 5px rgb(0 0 0 / 60%);
+  white-space: pre-line;
+}
+.contenedor_texto{
+  display: flex;
+  padding: 0 10vw;
+  z-index: 2;
+  position: relative;
+}
+.texto_resumen {
+
+  color: #ffffff;
+  margin: 0 15px 15px;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  text-shadow: 2px 2px 5px rgb(0 0 0 / 60%);
+  white-space: pre-line;
+}
+.contenedor_texto ul{
+  padding: 0%;
+}
+.contenedor_texto li{
+  color: #ffffff;
+  margin: 0 15px 15px;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  text-shadow: 2px 2px 5px rgb(0 0 0 / 60%);
+  white-space: pre-line;
+  list-style-type: none;
+}

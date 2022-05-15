@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> DOOM  </title>
+<link rel="icon" type="image/x-icon" href="./assets/img/doom_Icon_mini.png">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Proyecto académico de ESAT, realizando una web de la saga de DOOM">
+<meta name="author" content="Proyecto académico realizado por: Enrique Tarin">
+<meta name="keywords" content="Doom,Doom3,doom eternal, videojuego, esat, Enrique Tarin">
+<!-- CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="./css/mainPage/topnav2.css">
+<link rel="stylesheet" href="./css/mainPage/img_slide_show.css">
+<link rel="stylesheet" href="./css/mainPage/button_buy.css">
+<link rel="stylesheet" href="./css/mainPage/topnavButtons.css">
+<link rel="stylesheet" href="./css/mainPage/comun.css">
+<!-- SCRIPTS -->
+<script type="text/javascript" src="./scripts/mainPage/script_img_slide_show.js"> </script>
+<script  type="text/javascript" src="./scripts/mainPage/script_top_nav.js"> </script>
+
+<style>
+  * {
+  		box-sizing: border-box;
+	}
+
+	body{
+	  background-image: url("./assets/img/comprimidas/doom_background2.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+    }
+
+  .black{
+    height: 60px;
+    width: 100%;
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	  flex-direction: row;
+  }
+  div.textoInicio{
+    display: block;
+    position:center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+    width:500px;
+    height:auto;
+    color: white;
+    font-size: 1em;
+  }
+
+
+@media only screen and (max-width: 700px) {
+
+	.black{
+		flex-direction: column;
+		height: 200px;
+	}
+	div.textoInicio{
+		width:200px;
+		height:auto;
+		color: white;
+		font-size: 1.0em;
+	}
+}
+@media only screen and (max-width: 650px) {
+    .prev, .next,.text {font-size: 11px}
+
+	 .black{
+		flex-direction: column;
+		height: 200px;
+	  }
+	div.textoInicio{
+		width:200px;
+		height:auto;
+		color: white;
+		font-size: 15px;
+	}
+
+}
+</style>
+</head>
+<body>
+	<header >
+		<ul>
+			<li style="padding-bottom:10px ;"><a href="./index.html" > <img src="./assets/img/doom_Icon_mini.png"/></a></li>
+			<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Historia</a>
+			<div class="dropdown-content">
+				<a href="./historia_doom1.html">Historia DooM 1</a>
+				<a href="./historia_doom3.html">Historia DooM 3</a>
+				<a href="./historia_doom_eternal.html">Historia DooM Eternal</a>
+			</div>
+		</li>
+
+		<li><a href="./enemigos_doom.html" >Enemigos DooM  </a></li>
+
+		<li><a href="./armas_doom.html" >Armas DooM  </a></li>
+	</ul>
+	</header>
+
+	<div class="topnav">
+		<a href="./index.html" class="active"><img src="./assets/img/doom_Icon_mini.png"/></a>
+		<div id="myLinks">
+			<a href="./historia_doom1.html">Historia DooM 1</a>
+			<a href="./historia_doom3.html">Historia DooM 3</a>
+			<a href="./historia_doom_eternal.html">Historia DooM Eternal</a>
+			<a href="./enemigos_doom.html" >Enemigos DooM  </a>
+			<a href="./armas_doom.html" >Armas DooM  </a>
+		</div>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		  <i class="fa fa-bars"></i>
+		</a>
+	</div>
+
+
+	<div class="soportetop"> </div>
+
+	<br>
+
+	<div class="slideshow-container">
+		<div class="mySlides fade first">
+			<div class="numbertext">1 / 3</div>
+			<img src="./assets/img/main/DOOM_1_extend.png" style="width:100%">
+		<div class="text">DOOM 1</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">2 / 3</div>
+		<img src="./assets/img/main/doom3_extend.png" style="width:100%">
+		<div class="text">DOOM 3</div>
+	</div>
+
+	<div class="mySlides fade">
+		<div class="numbertext">3 / 3</div>
+		<img src="./assets/img/main/doom_eternal.jpg" style="width:100%">
+		<div class="text">DOOM ETERNAL</div>
+	</div>
+
+	<a class="prev" onclick="plusSlides(-1)">❮</a>
+	<a class="next" onclick="plusSlides(1)">❯</a>
+
+	</div>
+
+
+	<div class="black">
+  	<a href="https://store.steampowered.com/app/2280/Ultimate_Doom/" target="_blank">
+  		<button class="button">Buy Doom 1</button>
+  	</a>
+  	<a href="https://store.steampowered.com/app/9050/DOOM_3/" target="_blank">
+  		<button class="button">Buy Doom 3</button>
+  	</a>
+  	<a href="https://store.steampowered.com/app/782330/DOOM_Eternal/"target="_blank">
+  		<button class="button">Buy Doom Eternal</button>
+  	</a>
+	</div>
+
+
+	<div class="textoInicio">
+		<h2>ARRASA EL INFIERNO</h2>
+		<p>Los ejércitos del infierno han invadido la Tierra. Ponte en la piel del Slayer en una épica campaña para un jugador y cruza dimensiones para detener la destrucción definitiva de la humanidad.</p>
+		<p><b>No le tienen miedo a nada... salvo a ti.</b></p>
+		<p>Disfruta de la mejor combinación de velocidad y potencia en DOOM Eternal, que trae un salto cualitativo del combate en primera persona.</p>
+		<p>Desvela los orígenes del Slayer y su eterna misión de ARRASAR EL INFIERNO.</p>
+	</br>
+	</div>
+  <div class="soporte"></div>
+
+	<footer class="Copyright">
+
+    ©  <a href="https://www.esat.es/" target="_blank"> Academic Proyect by Enrique Tarin Fuster - ESAT</a>
+		<div class="formulario">
+			    <a href="./formulario.html" target="_blank"> contacto </a> 
+			</div>
+	</footer>
+</body>
+</html>

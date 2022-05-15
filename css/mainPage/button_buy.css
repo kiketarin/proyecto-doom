@@ -1,0 +1,41 @@
+.button {
+   font-family: "Doom Font Body";
+position: relative;
+border-radius: 15px;
+border-color: black solid;
+background-color: transparent;
+border: 10px;
+font-size: 1.25em;
+color: black;
+padding-top: 10px;
+margin:10px;
+width: 200px;
+height: 40px;
+text-align: center;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+text-decoration: none;
+overflow: hidden;
+cursor: pointer;
+
+}
+
+.button:after {
+content: "";
+background: #333;
+display: block;
+position: absolute;
+padding-top: 300%;
+padding-left: 350%;
+margin-left: -20px!important;
+margin-top: -120%;
+opacity: 0;
+transition: all 0.8s
+}
+
+.button:active:after {
+padding: 0;
+margin: 0;
+opacity: 1;
+transition: 0s
+}
