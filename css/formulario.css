@@ -31,5 +31,6 @@ input[type=text], select, textarea {
   .politica_de_privacidad{
       height:300px;
       overflow:auto;
+      padding: 20px;
       padding-top:25px;
   }
